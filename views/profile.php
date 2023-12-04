@@ -19,7 +19,7 @@
     <div class="container">
         <div class="card w-50 my-5 mx-auto">
             <div class="card-header">
-                <img src="../images/<?= $user['photo'] ?>" alt="<?= $user['username'] ?>'s photo" class="img-thumbnail">
+                <img src="../images/<?= $user['photo'] ?>" alt="<?= $user['username'] ?>'s photo" class="img-thumbnail d-block mx-auto">
             </div>
             <div class="card-body">
                 <form action="../actions/uploadPhoto.php" method="post" enctype="multipart/form-data">
